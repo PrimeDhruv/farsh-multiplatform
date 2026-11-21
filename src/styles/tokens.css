@@ -1,0 +1,26 @@
+/*
+ * Design tokens — Farsh's own palette: deep teal-green (the "plum-*" variable names are kept from the first version
+ * so components did not need renaming), marigold accent, cream bands and a four-colour stripe
+ * (marigold · green · mustard · terracotta). Status colours stay readable on white.
+ */
+:root {
+  --plum-950: #04201c; --plum-900: #0a302a; --plum-800: #0e463e; --plum-700: #155a50; --plum-600: #22705f;
+  --plum-200: #cfe3dd; --plum-100: #e4f1ed; --plum-50: #f3f9f7;
+  --orange: #f79c21; --orange-600: #e8860b; --orange-700: #b86400; --orange-50: #fff4e3;
+  --cream: #fff3d7; --cream-50: #fffaf0;
+  --stripe-orange: #f2a531; --stripe-magenta: #2f9c84; --stripe-cyan: #e3c565; --stripe-coral: #d9694a;
+  --stripes: linear-gradient(90deg, var(--stripe-orange) 0 25%, var(--stripe-magenta) 25% 50%, var(--stripe-cyan) 50% 75%, var(--stripe-coral) 75% 100%);
+
+  --green: #137a5c; --green-bg: #e3f3ed; --green-strong: #0f6a4f;
+  --amber: #9a5b00; --amber-bg: #fff1dc;
+  --red: #c72b42; --red-bg: #fce9ec;
+  --teal: #0e6b7d; --teal-bg: #e4f1f4;
+  --grey: #556360; --grey-bg: #eaefed;
+
+  --bg: #f6f7f3; --surface: #fff; --ink: #12302b; --muted: #5c6966; --border: #e2e9e6; --border-strong: #c9d6d1;
+  --radius: 14px; --radius-sm: 10px;
+  --shadow: 0 1px 2px rgba(10, 48, 42, .05), 0 2px 8px rgba(10, 48, 42, .04);
+  --shadow-lg: 0 12px 40px rgba(4, 32, 28, .22);
+  --sidebar-w: 248px; --topbar-h: 64px;
+  --font: 'Plus Jakarta Sans', 'Noto Sans Devanagari', 'Nirmala UI', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
